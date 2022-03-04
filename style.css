@@ -96,7 +96,7 @@ padding: 20px;
   border-radius: 50%;
   transition: 0.5s;
   box-shadow:  0 0 10px  #FF4C29;
-  
+  user-select: none;
   transform: scale(110%);
 }
 
