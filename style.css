@@ -1,0 +1,112 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+/* Mobile first */
+.wrapper {
+  min-height: 100vh;
+  min-width: calc(100vw - (100vw - 100%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2C394B;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container #btn {
+  margin: 50px 0;
+  padding: 15px 25px;
+  background-color: #474747;
+  border: #2C394B;
+  color: #FF4C29;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow:  5px 5px 15px 5px #000000;
+  transform: scale(105%);
+  transition: 0.1s;
+}
+
+.btn-container #btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  
+}
+.btn-container #btn:active {
+transform: scale(100%);
+box-shadow: none;
+
+}
+
+
+
+.output-cointainer {
+  width: 100%;
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.output-cointainer h1 {
+  color: #fff;
+}
+
+.output-cointainer #output {
+  width: 74%;
+  margin-top: 25px;
+  padding: 30px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;  
+}
+.gituser {
+  cursor: pointer;
+  user-select: none;
+
+}
+.styl {
+  text-align: center;
+  background: #082032;
+color: white;
+padding: 20px;
+}
+
+
+.output-cointainer #output img {
+  width: 110px;
+  border-radius: 50%;
+  transition: 0.5s;
+  box-shadow:  0 0 10px  #FF4C29;
+  
+  transform: scale(110%);
+}
+
+.output-cointainer #output img:active {
+  
+  box-shadow: none;
+  transform: scale(100%);
+
+}
+.output-cointainer #output img:hover {
+   box-shadow:  0 0 10px  #54E346;
+   
+
+}
